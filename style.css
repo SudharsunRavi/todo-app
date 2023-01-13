@@ -1,0 +1,56 @@
+#todo-input{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#add{
+    width: 150px;
+    height: 50px;
+    padding: 8px 14px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: #fff;
+    background: #009578;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(3,44,41,0.226);
+}
+
+.delete{
+    padding: 5px 10px;
+    font-weight: lighter;
+    color: #fff;
+    background: #d4472b;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(3,44,41,0.226);
+}
+
+input[type="date"]{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 50px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 300;
+    letter-spacing: 3px;
+    box-shadow: 0 4px 20px rgba(3,44,41,0.226);
+}
+
+input[type="text"]{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 300;
+    box-shadow: 0 4px 20px rgba(3,44,41,0.226);
+}
