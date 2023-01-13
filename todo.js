@@ -13,7 +13,7 @@ if(Array.isArray(savedTodos)){
         dueDate: "2022-10-09",
         id:"id2"
     }, { 
-        title:"Item2",
+        title:"Item3",
         dueDate: "2022-10-09",
         id:"id3"
     }];
