@@ -66,7 +66,8 @@ function render(){
     document.getElementById("todoAdd").innerHTML='';
     todos.forEach(function(todo){
         const ele=document.createElement("div");
-        ele.innerText=todo.title + " " + todo.dueDate;
+        ele.classList.add("output");
+        ele.innerText=todo.title +" " + todo.dueDate;
         const del=document.createElement("button");
         del.classList.add("delete");
         del.innerText="X";
