@@ -67,7 +67,9 @@ function render(){
     todos.forEach(function(todo){
         const ele=document.createElement("div");
         ele.classList.add("output");
-        ele.innerText=todo.title +" " + todo.dueDate;
+        const titleOut=todo.title;
+        const dateOutput=todo.dueDate;
+        ele.innerText=titleOut+ " " + dateOutput;
         const del=document.createElement("button");
         del.classList.add("delete");
         del.innerText="X";
