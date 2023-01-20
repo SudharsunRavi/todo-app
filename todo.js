@@ -69,7 +69,7 @@ function render(){
         ele.classList.add("output");
         const titleOut=todo.title;
         const dateOutput=todo.dueDate;
-        ele.innerText=titleOut+ " " + dateOutput;
+        ele.innerHTML=titleOut+ "&nbsp;" + dateOutput;
         const del=document.createElement("button");
         del.classList.add("delete");
         del.innerText="X";

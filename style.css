@@ -79,11 +79,10 @@ input[type="text"]{
 }
 
 .output{
-    padding: 1rem;
+    padding: 1rem 3rem;
     margin-top: 35px;
     display: flex;
-    justify-content: space-evenly;
-    text-align: left;
+    justify-content: space-between;
 }
 
     
