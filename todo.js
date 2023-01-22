@@ -62,6 +62,13 @@ function delTodo(deleteTodo){
     render();
 }
 
+// function strikeTodo(){
+//     let strike=document.getElementsByClassName("done");
+//     strike.style.text-decoration = "line-through"; 
+//     render()
+// }
+
+
 function render(){
     document.getElementById("todoAdd").innerHTML='';
     todos.forEach(function(todo){
@@ -70,12 +77,20 @@ function render(){
         const titleOut=todo.title;
         const dateOutput=todo.dueDate;
         ele.innerHTML=titleOut+ "&nbsp;" + dateOutput;
+
+        // const DoneTodo=document.createElement("button");
+        // DoneTodo.classList.add("done");
+        // DoneTodo.innerText="✅";
+        // // DoneTodo.onclick=strikeTodo
+        // ele.appendChild(DoneTodo)
+
         const del=document.createElement("button");
         del.classList.add("delete");
         del.innerText="X";
         del.onclick=delTodo;
         del.id=todo.id;
         ele.appendChild(del);
+
         const todoList=document.getElementById("todoAdd");
         todoList.appendChild(ele);
     });
